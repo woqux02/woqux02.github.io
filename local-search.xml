@@ -11,6 +11,12 @@
     <content type="html"><![CDATA[<h1 id="训练日志"><a href="#训练日志" class="headerlink" title="训练日志"></a>训练日志</h1><p>2022年12月1日</p><ul><li><p>俯卧撑 1式<br>20 * 5</p></li><li><p>桥 1式<br>35 * 2</p></li><li><p>举腿 2式<br>15 * 2</p></li><li><p>引体向上 2式<br>5</p></li></ul>]]></content>
     
     
+    <categories>
+      
+      <category>训练</category>
+      
+    </categories>
+    
     
   </entry>
   
@@ -23,6 +29,12 @@
     
     <content type="html"><![CDATA[<h1 id="训练日志"><a href="#训练日志" class="headerlink" title="训练日志"></a>训练日志</h1><p>2022年12月1日</p><ul><li><p>俯卧撑 1式<br>20 * 5</p></li><li><p>桥 1式<br>35 * 2</p></li><li><p>举腿 2式<br>15 * 3</p></li><li><p>引体向上 2式<br>5 * 2</p></li></ul>]]></content>
     
+    
+    <categories>
+      
+      <category>训练</category>
+      
+    </categories>
     
     
   </entry>
@@ -37,6 +49,12 @@
     <content type="html"><![CDATA[<h1 id="11月航行日志"><a href="#11月航行日志" class="headerlink" title="11月航行日志"></a>11月航行日志</h1><p><em>2022年11月30日</em><br><em>周三</em><br><em>阴</em><br><em>南风2级</em></p><h2 id="航线"><a href="#航线" class="headerlink" title="航线"></a>航线</h2><p><em>已偏航，需手动纠正</em>  </p><ul><li>本月主要学习 html, css 。本想自己修改 hexo 框架或主题自己建一个比较美观的手册，但正如搭建服务器，不是所有事情都要从头做，人的精力都是有限的，如果航线总是被涡流拖拽，只会延长航期。</li></ul><h2 id="异化率"><a href="#异化率" class="headerlink" title="异化率"></a>异化率</h2><p><em>异化率40%</em></p><ul><li>不爱干净 重度熬夜 思维迟缓 精神不佳 健康状况一般 共情力低下 脱离现实</li></ul><h2 id="纠正日志"><a href="#纠正日志" class="headerlink" title="纠正日志"></a>纠正日志</h2><p>主目标：建模 考虑人生大事1  (-_-)<br>次目标：锻炼 不熬夜 集中精神</p>]]></content>
     
     
+    <categories>
+      
+      <category>日志</category>
+      
+    </categories>
+    
     
   </entry>
   
@@ -50,6 +68,12 @@
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
+    <categories>
+      
+      <category>杂谈</category>
+      
+    </categories>
+    
     
   </entry>
   
@@ -62,6 +86,12 @@
     
     <content type="html"><![CDATA[<h1 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h1><p>别问，问就啥都不知道。打算利用hexo建一个小破站，全都是因为没钱！下面总结一下怎么用hexo</p><ol><li><p>新建博客</p><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dos">hexo init d:/...<br></code></pre></td></tr></table></figure></li><li><p>install dependence卡住（有时候不会卡，一定要确定他卡住了才走这步）</p><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs dos">ctrl c<br>cnpm install<br></code></pre></td></tr></table></figure></li><li><p>开启服务查看初始页面</p><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dos">hexo s<br></code></pre></td></tr></table></figure></li><li><p>安装主题（每个博客都要装一次）</p><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dos">cnpm install --save hexo-theme-fluid<br></code></pre></td></tr></table></figure></li><li><p>改config<br>theme：fluid<br>languages：zh-CN</p></li><li><p>复制 config.yml 到 config.fluid.yml</p></li><li><p>开始写文章吧，新建 md 文件，写完后放入 sourse&#x2F;_post&#x2F; 内。</p></li></ol>]]></content>
     
+    
+    <categories>
+      
+      <category>杂谈</category>
+      
+    </categories>
     
     
   </entry>
