@@ -4,6 +4,44 @@
   
   
   <entry>
+    <title>常量、变量</title>
+    <link href="/2022/12/10/%E5%8F%98%E9%87%8F/"/>
+    <url>/2022/12/10/%E5%8F%98%E9%87%8F/</url>
+    
+    <content type="html"><![CDATA[<h1 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h1><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">define</span> pi 3.1415;            <span class="hljs-comment">//宏</span></span><br><span class="hljs-type">const</span> <span class="hljs-type">float</span> pi = <span class="hljs-number">3.1415</span>;      <span class="hljs-comment">//常量</span><br></code></pre></td></tr></table></figure><h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><ul><li>char</li><li>float</li><li>double</li><li>int</li><li>bool</li></ul><h1 id="存储方式"><a href="#存储方式" class="headerlink" title="存储方式*"></a>存储方式*</h1><ul><li>auto</li><li>register</li><li>extern</li><li>static</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>c++</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>C++ 入门</title>
+    <link href="/2022/12/10/C++%20%E5%85%A5%E9%97%A8/"/>
+    <url>/2022/12/10/C++%20%E5%85%A5%E9%97%A8/</url>
+    
+    <content type="html"><![CDATA[<h1 id="C-入门"><a href="#C-入门" class="headerlink" title="C++ 入门"></a>C++ 入门</h1><p>掌握 <strong>输入输出、文件基本格式</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">main</span><span class="hljs-params">(<span class="hljs-type">void</span>)</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">char</span> name[<span class="hljs-number">10</span>];<br>    cout&lt;&lt;<span class="hljs-string">&quot;Please input your name: &quot;</span>;<br>    cin&gt;&gt;name[<span class="hljs-number">10</span>];<br>    cout&lt;&lt;<span class="hljs-string">&quot;Welcome, this is c++!&quot;</span>&lt;&lt;endl;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>c++</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>训练日志 12.3</title>
     <link href="/2022/12/03/%E8%AE%AD%E7%BB%83%E6%97%A5%E5%BF%97%2012-3/"/>
     <url>/2022/12/03/%E8%AE%AD%E7%BB%83%E6%97%A5%E5%BF%97%2012-3/</url>
