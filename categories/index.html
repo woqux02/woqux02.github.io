@@ -58,7 +58,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.4","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -104,7 +104,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/">
                 <i class="iconfont icon-home-fill"></i>
-                首页
+                <span>首页</span>
               </a>
             </li>
           
@@ -116,7 +116,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/archives/">
                 <i class="iconfont icon-archive-fill"></i>
-                归档
+                <span>归档</span>
               </a>
             </li>
           
@@ -128,7 +128,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/categories/">
                 <i class="iconfont icon-category-fill"></i>
-                分类
+                <span>分类</span>
               </a>
             </li>
           
@@ -140,7 +140,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/tags/">
                 <i class="iconfont icon-tags-fill"></i>
-                标签
+                <span>标签</span>
               </a>
             </li>
           
@@ -152,7 +152,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/about/">
                 <i class="iconfont icon-user-fill"></i>
-                关于
+                <span>关于</span>
               </a>
             </li>
           
@@ -160,15 +160,16 @@
         
           <li class="nav-item" id="search-btn">
             <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
-              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+              <i class="iconfont icon-search"></i>
             </a>
           </li>
           
         
         
           <li class="nav-item" id="color-toggle-btn">
-            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
-                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
           </li>
         
       </ul>
@@ -311,6 +312,66 @@
     
     <div class="category row nomargin-x">
       <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="日志"
+        id="heading-456d29ef8bafd5202547e50d3e64d4ea" role="tab" data-toggle="collapse" href="#collapse-456d29ef8bafd5202547e50d3e64d4ea"
+        aria-expanded="false"
+      >
+        日志
+        <span class="list-group-count"></span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+        <a href="/categories/%E6%97%A5%E5%BF%97/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>3</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-456d29ef8bafd5202547e50d3e64d4ea"
+           role="tabpanel" aria-labelledby="heading-456d29ef8bafd5202547e50d3e64d4ea">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/2023/01/18/2022%E6%80%BB%E7%BB%93/" title="2022年度总结"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">2022年度总结</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2022/12/17/%E7%9B%AE%E6%A0%87/" title="目标"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">目标</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2022/11/30/11%E6%9C%88%E8%88%AA%E8%A1%8C%E6%97%A5%E5%BF%97/" title="11月航行日志"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">11月航行日志</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
           list-group-item category-item-action col-10 col-md-11 col-xm-11" title="看番"
         id="heading-b8aba1f49477758395cd4a98cff1c96f" role="tab" data-toggle="collapse" href="#collapse-b8aba1f49477758395cd4a98cff1c96f"
         aria-expanded="false"
@@ -431,22 +492,22 @@
     
     <div class="category row nomargin-x">
       <a class="category-item collapsed
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="日志"
-        id="heading-456d29ef8bafd5202547e50d3e64d4ea" role="tab" data-toggle="collapse" href="#collapse-456d29ef8bafd5202547e50d3e64d4ea"
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="总结"
+        id="heading-25f9c7fa3b50aebe5125112ac1187777" role="tab" data-toggle="collapse" href="#collapse-25f9c7fa3b50aebe5125112ac1187777"
         aria-expanded="false"
       >
-        日志
+        总结
         <span class="list-group-count"></span>
         <i class="iconfont icon-arrowright"></i>
       </a>
       
-        <a href="/categories/%E6%97%A5%E5%BF%97/" class="category-count col-2 col-md-1 col-xm-1">
+        <a href="/categories/%E6%80%BB%E7%BB%93/" class="category-count col-2 col-md-1 col-xm-1">
           <i class="iconfont icon-articles"></i>
           <span>2</span>
         </a>
       
-      <div class="category-collapse collapse " id="collapse-456d29ef8bafd5202547e50d3e64d4ea"
-           role="tabpanel" aria-labelledby="heading-456d29ef8bafd5202547e50d3e64d4ea">
+      <div class="category-collapse collapse " id="collapse-25f9c7fa3b50aebe5125112ac1187777"
+           role="tabpanel" aria-labelledby="heading-25f9c7fa3b50aebe5125112ac1187777">
         
         
           
@@ -455,19 +516,19 @@
     
       
       
-        <a href="/2022/12/17/%E7%9B%AE%E6%A0%87/" title="目标"
+        <a href="/2023/03/31/3%E6%9C%88%E6%80%BB%E7%BB%93/" title="3月总结"
            class="list-group-item list-group-item-action
            ">
-          <span class="category-post">目标</span>
+          <span class="category-post">3月总结</span>
         </a>
       
     
       
       
-        <a href="/2022/11/30/11%E6%9C%88%E8%88%AA%E8%A1%8C%E6%97%A5%E5%BF%97/" title="11月航行日志"
+        <a href="/2022/12/15/2%E6%9C%88%E6%80%BB%E7%BB%93/" title="2月总结"
            class="list-group-item list-group-item-action
            ">
-          <span class="category-post">11月航行日志</span>
+          <span class="category-post">2月总结</span>
         </a>
       
     
@@ -561,6 +622,48 @@
            class="list-group-item list-group-item-action
            ">
           <span class="category-post">《愿你的青春不负梦想》《破局》</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="投资"
+        id="heading-aef5b45396d8ae03a9db381c314be67e" role="tab" data-toggle="collapse" href="#collapse-aef5b45396d8ae03a9db381c314be67e"
+        aria-expanded="false"
+      >
+        投资
+        <span class="list-group-count"></span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+        <a href="/categories/%E6%8A%95%E8%B5%84/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>1</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-aef5b45396d8ae03a9db381c314be67e"
+           role="tabpanel" aria-labelledby="heading-aef5b45396d8ae03a9db381c314be67e">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/2023/01/18/%E6%8A%95%E8%B5%84%E6%97%A5%E5%BF%971/" title="投资学习1"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">投资学习1</span>
         </a>
       
     
