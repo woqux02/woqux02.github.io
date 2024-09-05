@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>一个错误</title>
+    <link href="/2024/09/04/%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF/"/>
+    <url>/2024/09/04/%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF/</url>
+    
+    <content type="html"><![CDATA[<h1 id="一个错误"><a href="#一个错误" class="headerlink" title="一个错误"></a>一个错误</h1><p>2024年9月4日23:35<br>很久没有写blog了，主要是因为精神压力变小了，当然现在写了，也是因为产生了新想法，当然不是什么好东西。<br>不谈别人，来说说自己。我总有一种感觉，我在还债，但我不知道我欠谁的。或许我在给我自己还债，十年前的自己，或是上辈子，可能我上辈子就是个五星好市民，谁知道呢。<br>人生非常荒唐，我们莫名其妙地出生，莫名其妙地学习，长大，跟一群人在一起，聊着莫名其妙的事情，然后我们犯了一些错误，是的，所有人都会犯错，然后，我们开始弥补，周而复始，直到生病，老死。<br>但是我没有这么糟，至少成人前我还是无忧无虑地活着。然后，不出意外地犯了错，随后的7年，我都在弥补曾经犯下的错误。我不知道为什么要进入这个地方，干这些事，跟这些人交流，我的人生轨迹貌似不可能与他们有什么交集，但是就是交上了，然后我要花费更多的时间，更多的精力，只是为了摆脱它。<br>其实这样说不严谨，真正要想摆脱，再简单不过，只是迫于形势，我选了一个很折中的方案，非常变扭，但说实在也没什么更好的选择了。<br>痛苦莫过于此，有钱？没用，你一屁股债，人生债，谁搞的？不知道，反正你有一份，你还吧，看你还到什么时候。<br>莫名其妙。<br>所以，什么时候活明白了，什么时候才算解脱了，想明白了没用，还要活出来，就问你难不难？说不难的，才是正常人，我们这种就不正常。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>随笔</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>4月总结2</title>
     <link href="/2024/05/16/4%E6%9C%88%E6%80%BB%E7%BB%932/"/>
     <url>/2024/05/16/4%E6%9C%88%E6%80%BB%E7%BB%932/</url>
@@ -517,25 +536,6 @@
   
   
   <entry>
-    <title>pyinstaller将py转为exe</title>
-    <link href="/2022/12/15/pyinstaller/"/>
-    <url>/2022/12/15/pyinstaller/</url>
-    
-    <content type="html"><![CDATA[<p>以下基于32位系统（64位比较简单，不会存在这样那样的问题）</p><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>安装 python3.6 x86，改名为 python32<br>python32 -m xx(包名) xx（参数）<br>python32 -m pip install pyinstaller<br>python32 -m pip install pywin32  </p><h1 id="调用-pyinstaller"><a href="#调用-pyinstaller" class="headerlink" title="调用 pyinstaller"></a>调用 pyinstaller</h1><p>python32 -m PyInstaller -D 文件名.py<br>-D表示生成所有依赖<br>注意大小写  </p>]]></content>
-    
-    
-    <categories>
-      
-      <category>python</category>
-      
-    </categories>
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>你醒了？</title>
     <link href="/2022/12/15/%E4%BD%A0%E9%86%92%E4%BA%86/"/>
     <url>/2022/12/15/%E4%BD%A0%E9%86%92%E4%BA%86/</url>
@@ -546,6 +546,25 @@
     <categories>
       
       <category>随笔</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>pyinstaller将py转为exe</title>
+    <link href="/2022/12/15/pyinstaller/"/>
+    <url>/2022/12/15/pyinstaller/</url>
+    
+    <content type="html"><![CDATA[<p>以下基于32位系统（64位比较简单，不会存在这样那样的问题）</p><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>安装 python3.6 x86，改名为 python32<br>python32 -m xx(包名) xx（参数）<br>python32 -m pip install pyinstaller<br>python32 -m pip install pywin32  </p><h1 id="调用-pyinstaller"><a href="#调用-pyinstaller" class="headerlink" title="调用 pyinstaller"></a>调用 pyinstaller</h1><p>python32 -m PyInstaller -D 文件名.py<br>-D表示生成所有依赖<br>注意大小写  </p>]]></content>
+    
+    
+    <categories>
+      
+      <category>python</category>
       
     </categories>
     
